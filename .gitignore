@@ -1,0 +1,13 @@
+#Binaries for programs
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+
+#Compressed
+*.zip
+*.tar.gz
+*.gz
+*.7zip
