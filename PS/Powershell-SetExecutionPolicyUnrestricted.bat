@@ -1,0 +1,1 @@
+powershell.exe -Command Set-ExecutionPolicy Unrestricted -Force

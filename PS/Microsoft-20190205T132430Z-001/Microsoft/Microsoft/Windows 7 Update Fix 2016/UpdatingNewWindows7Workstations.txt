@@ -1,0 +1,11 @@
+﻿* Install ResetWindowsUpdate.7.8.diagcab
+* Install Windows 7 SP1 “Windows Update Client Update”
+   * 64bit KB3138612
+   * https://www.microsoft.com/en-us/download/details.aspx?id=51212
+* Install Security Update MS16-098
+   * KB3177725
+   * https://technet.microsoft.com/library/security/MS16-098
+* Install July 2016 Rollup Update 
+   *  KB3172605
+   * https://www.microsoft.com/en-us/download/details.aspx?id=53332
+* Reboot as needed.

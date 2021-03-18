@@ -1,0 +1,1 @@
+%systemroot%\system32\cmd.exe /c Cleanmgr /sagerun:65535

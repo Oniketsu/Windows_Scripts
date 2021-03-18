@@ -1,0 +1,18 @@
+File Ingedrity
+
+  The file size is given in bytes.
+
++---------------------+---------+----------------------------------+------------------------------------------+
+| Name                | Size    | MD5                              | SHA1                                     |
++---------------------+---------+----------------------------------+------------------------------------------+
+| Help.chm            | 636.687 | 98c97add80e8352b29e497b5e1228393 | 4a824b7227531ae8cdd5e2c86c86e8369b21ccdd |
+| License.pdf         |   6.062 | 8fc3e02dd209bc3be84b32ab41a1a415 | 6f4bdd38e14499aeaeb6e001ad8eb199ef0240b0 |
+| Readme.txt          |     711 | 18a9a3714ac98ea851b7a96966c3f475 | 2bdf85dcb863a31c1df974a3076d92b70e2f030a |
+| ResetWUEng.cmd      |  29.092 | d6ab91e8af734cc76337788dea0c94cb | e0ab837ca8ed5006ab0585979b793c6207b36398 |
+| Screenshots (1).png |  44.962 | 71469c2067f39eaaea7abdc0d97ee14f | a3166a3e4e03c67035c0b2be36fa597b8b507af6 |
+| Screenshots (2).png |  24.651 | bd4cae87cab6f0afb0e4470d890977a8 | caed27c0e89aa58b32218d04d46b15cab4ab0246 |
+| Screenshots (3).png |  23.878 | da28ab4426ac2b3a53974e58f87b1084 | 101ce43e5a54e4fcdd0962f492b474d6242fe060 |
+| Screenshots (4).png |  24.866 | 4006049c001030a3c7a23958c38a2bf2 | 86bf31e71d7bc756e340281fea916e33ea6c6208 |
++---------------------+---------+----------------------------------+------------------------------------------+
+        Integrity.txt     1.490 bytes
+              9 Files   792.399 bytes

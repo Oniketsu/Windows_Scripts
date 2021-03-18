@@ -1,0 +1,10 @@
+<Configuration>
+    <Add OfficeClientEdition="32" Channel="Monthly" SourcePath="c:\techrunnerit\O365\CC" DownloadPath="c:\techrunnerit\O365\CC">
+        <Product ID="O365BusinessRetail">
+            <Language ID="en-us"/>           
+        </Product>
+    </Add>
+    <Logging Level="Standard" Path="c:\techrunnerit\O365\Logs"/>
+    <Display Level="None" AcceptEULA="TRUE"/>
+    <Updates Enabled="TRUE" Channel="Monthly"/>
+</Configuration>

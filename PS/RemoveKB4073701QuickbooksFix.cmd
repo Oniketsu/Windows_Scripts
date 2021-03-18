@@ -1,0 +1,1 @@
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\SetupCache\v4.7.02558\setup.exe /uninstallpatch {685303B0-2BAB-358A-956A-E0BEF8136C7C} /q /norestart

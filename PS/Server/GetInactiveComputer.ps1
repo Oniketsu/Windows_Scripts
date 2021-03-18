@@ -1,0 +1,1 @@
+Get-ADComputer -Identity $ask -Properties CN, Lastlogondate

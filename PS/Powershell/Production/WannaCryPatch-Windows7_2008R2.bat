@@ -1,0 +1,1 @@
+wusa.exe c:\techrunnerit\WCPatch.Windows7.2008R2.msu /quiet /norestart

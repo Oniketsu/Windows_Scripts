@@ -1,0 +1,67 @@
+TSLogoff V3 is a command-line tool to logoff Citrix or Terminal Server
+Sessions from a particular server within a Domain. 
+
+This utility was written to replace the command LOGOFF.EXE currently
+found in the MS Windows Operating System. This utility offers an extra
+feature that will be of benefit to all admins - the * (ALL) switch.
+Using this switch, an admin can logoff all users on a Citrix/TS server
+with one command. This command can also be used in a script.
+
+This utility is FREEWARE and was written by Warren Simondson of
+Ctrl-Alt-Del IT Consultancy, Australia. www.ctrl-alt-del.com.au
+
+Thankyou to the WINDOWS SDK available from http://msdn.microsoft.com/downloads
+
+Usage:
+TSLOGOFF [ username | sessionid | * | /DISC | /AXCON] [/SERVER:servername]
+
+     username            The username of the session.
+     sessionid           The ID of the session.
+     *                   Logoff ALL sessions.
+     /DISC               Logoff ALL Disconnected sessions.
+     /SERVER:servername  [Optional] Specifies the Terminal server containing
+                         the user session to log off (default is current).
+     /SERVER:*           [Optional] Specifies ALL Terminal servers containing
+                         the user session to log off.
+     /AXCON              [Optional] Logoff ALL sessions EXCLUDING the Console
+                         Session of the specified server.
+     /?                  This help information.
+
+TSLOGOFF with no parameters will logoff the current session.
+
+E.G. TSLogoff *
+This command will logoff all users on the current TS or Citrix Server.
+
+E.G. TSLogoff 11
+This command will logoff SESSION ID 11 on the current TS or Citrix Server.
+Use QUSER.EXE to locate Session ID.
+
+E.G. TSLogoff * /SERVER:MyServer
+This command will logoff all users on the MyServer Server.
+
+E.G. TSLogoff 9 /SERVER:MyServer
+This command will logoff SESSION ID 9 on the MyServer Server.
+
+E.G. TSLogoff * /SERVER:*
+This command will logoff all users on all Servers in the current domain.
+
+E.G. TSLogoff * /SERVER:My*
+This command will logoff all users on all Servers in the current domain.
+
+E.G. TSLogoff /DISC /SERVER:*
+This command will logoff all disconnected sessions on all servers.
+
+E.G. TSLogoff /AXCON /SERVER:*
+This command will logoff all sessions on all servers except console sessions.
+
+Use QUSER.EXE to locate Session ID.
+
+The freeware version is offered AS IS. Ctrl-Alt-Del IT Consultancy has made
+every effort possible to ensure that TSLogoff is free of any bugs or errors,
+however in no way is TSLogoff to be considered error or bug free.
+You assume all responsibility for any damages or lost data that may result
+from any errors or bugs in TSLogoff.
+
+IN NO EVENT WILL CTRL-ALT-DEL IT CONSULTANCY BE LIABLE TO YOU FOR ANY GENERAL,
+SPECIAL, INDIRECT, CONSEQUENTIAL, INCIDENTAL OR OTHER DAMAGES ARISING OUT OF 
+THIS PRODUCT.
