@@ -528,6 +528,9 @@ istio-1.8.0
 
 # binaries and archives
 *.zip
+*.tar.gz
+*.gz
+*.7zip
 
 # lambda for AWS
 lambda_env_*
