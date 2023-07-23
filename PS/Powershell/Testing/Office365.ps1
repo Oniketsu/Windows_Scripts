@@ -3,7 +3,7 @@
 #Walkthrough to run offline installer
 
 #--SETUP--
-$FileURL = "ftp://1025.techrunnerit.com/Office.zip"
+$FileURL = "FTP_IPOffice.zip"
 $Directory = "C:\techrunnerit"
 $Output = "$Directory\Office.zip"
 

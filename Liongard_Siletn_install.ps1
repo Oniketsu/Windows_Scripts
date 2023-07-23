@@ -13,7 +13,7 @@ exit $lastexitcode
 }
 
 #--SETUP--;
-$FTP = "ftp://172.16.210.50/";
+$FTP = "FTP_IP";
 $User = "ftp_user";
 $Pass = "$Password";
 $Directory = "C:\SWK\Installs";

@@ -75,7 +75,7 @@ exit $lastexitcode
 ####################################################
 
 #--FTP SETUP--
-$FTP = "ftp://1025.techrunnerit.com/"
+$FTP = "FTP_IP"
 $FileURL = ($FTP + "/HostedFiles/" + $DriverFile)
 $User = "tr-ftp"
 $Pass = "user_pass"

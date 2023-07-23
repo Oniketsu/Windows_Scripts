@@ -22,7 +22,7 @@ $DriverFullName = "HP Universal PCL6"
 $DriverFile = ($DriverName + ".zip")
 
 #--FTP SETUP--
-$FTP = "ftp://1025.techrunnerit.com/"
+$FTP = "FTP_IP"
 $FileURL = ($FTP + "/HostedFiles/" + $DriverFile)
 $User = "tr-ftp"
 $Pass = "user_pass"

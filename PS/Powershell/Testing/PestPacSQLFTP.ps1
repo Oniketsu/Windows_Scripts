@@ -13,7 +13,7 @@ exit $lastexitcode
 }
 
 #--SETUP--;
-$FTP = "ftp://1025.techrunnerit.com/";
+$FTP = "FTP_IP";
 $FileURL = ($FTP + "/HostedFiles/Office.zip");
 $User = "tr-ftp";
 $Pass = "";

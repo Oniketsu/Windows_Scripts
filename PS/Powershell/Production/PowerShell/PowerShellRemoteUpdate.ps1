@@ -20,7 +20,7 @@ If ($PSVersionTable.PSVersion.Major -ge 4) {
 
 #--SETUP--
 $Version = (gwmi Win32_OperatingSystem).caption
-$FTP = "ftp://1025.techrunnerit.com/";
+$FTP = "FTP_IP";
 $User = "tr-ftp";
 $Pass = "user_pass";
 $Directory = "C:\techrunnerit";
