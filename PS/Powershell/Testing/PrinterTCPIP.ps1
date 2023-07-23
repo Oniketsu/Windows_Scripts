@@ -25,7 +25,7 @@ $DriverFile = ($DriverName + ".zip")
 $FTP = "ftp://1025.techrunnerit.com/"
 $FileURL = ($FTP + "/HostedFiles/" + $DriverFile)
 $User = "tr-ftp"
-$Pass = "cmHJG7=bMZCYa2?i#6jNi:U}"
+$Pass = "user_pass"
 $Directory = "C:\techrunnerit"
 $Output = ($Directory + "\" + $DriverFile)
 

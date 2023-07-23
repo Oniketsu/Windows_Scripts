@@ -15,7 +15,7 @@ exit $lastexitcode
 #--SETUP--;
 $FTP = "ftp://173.15.137.212/";
 $User = "ftp_user";
-$Pass = "2Bu3XWDvE2ZxrNV4";
+$Pass = "$Password";
 $Directory = "C:\SWK\Installs";
 
 #--Roar Info--;

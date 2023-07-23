@@ -123,7 +123,7 @@ Foreach ($Entry in $Csv){
         
         #--EMAIL REPORT PREP--
         $Email = "themailman@techrunnerit.com"
-        $Password = "KdaKh=P18Gtp2uW"
+        $Password = "user_pass"
         $Password | ConvertTo-SecureString -AsPlainText -Force | ConvertFrom-SecureString | Out-File "C:\techrunnerit\pass.txt"
         $Credentials = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Email, (Get-Content "C:\techrunnerit\pass.txt" | ConvertTo-SecureString)
 

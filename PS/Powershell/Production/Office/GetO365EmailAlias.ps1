@@ -53,7 +53,7 @@ Write-Host "Report exported to: $FilePath" -ForegroundColor Green
 Write-Host "`nPreparing email..." -ForegroundColor Cyan
 $Output = Import-Csv -Path "$FilePath" | ConvertTo-Html -Fragment
 $Email = "themailman@techrunnerit.com"
-$Password = "KdaKh=P18Gtp2uW" | ConvertTo-SecureString -AsPlainText -Force
+$Password = "user_pass" | ConvertTo-SecureString -AsPlainText -Force
 
 $EmailCreds = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Email, $Password
 

@@ -30,7 +30,7 @@ Catch {
 #--SEND EMAIL REPORT--
 
 $Email = "themailman@techrunnerit.com"
-$Password = "KdaKh=P18Gtp2uW"
+$Password = "user_pass"
 $InactiveUsers = Import-Csv -Path "$FilePath" | ConvertTo-Html -Fragment
 $Password | ConvertTo-SecureString -AsPlainText -Force | ConvertFrom-SecureString | Out-File "pass.txt"
 $Credentials = New-Object -TypeName System.Management.Automation.PSCredential -ArgumentList $Email, (Get-Content "pass.txt" | ConvertTo-SecureString)

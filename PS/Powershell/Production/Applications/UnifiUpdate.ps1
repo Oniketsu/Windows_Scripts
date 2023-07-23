@@ -15,7 +15,7 @@ exit $lastexitcode
 #--SETUP--
 $baseurl = 'https://unifi.techrunnerit.com:8443'
 $username = 'techrunnerit'
-$password = 'Mk7CgB_-KIBwDQm1_=f'
+$password = 'user_pass'
 $session = New-Object Microsoft.PowerShell.Commands.WebRequestSession
 $useragent = [Microsoft.PowerShell.Commands.PSUserAgent]::Chrome
 

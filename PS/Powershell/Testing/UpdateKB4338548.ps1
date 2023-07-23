@@ -17,7 +17,7 @@ $FTP = "ftp://1025.techrunnerit.com";
 $FileName = "windows10.0-kb4338548-x64_03a08a477b154e6206d42116f9a0efcfafa53f0e.msu"
 $FileURL = ($FTP + "/HostedFiles/" + $FileName);
 $User = "tr-ftp";
-$Pass = "cmHJG7=bMZCYa2?i#6jNi:U}";
+$Pass = "user_pass";
 $Directory = "C:\techrunnerit";
 $Output = ("$Directory\" + $FileName);
 $UpdateVer = "KB4338548";

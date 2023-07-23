@@ -15,7 +15,7 @@ exit $lastexitcode
 #--SETUP--;
 $FTP = "ftp://172.16.210.50/";
 $User = "ftp_user";
-$Pass = "2Bu3XWDvE2ZxrNV4";
+$Pass = "$Password";
 $Directory = "C:\SWK\Installs";
 
 #--CREATE TEMP DIRECTORY--;

@@ -22,7 +22,7 @@ If ($PSVersionTable.PSVersion.Major -ge 4) {
 $Version = (gwmi Win32_OperatingSystem).caption
 $FTP = "ftp://1025.techrunnerit.com/";
 $User = "tr-ftp";
-$Pass = "cmHJG7=bMZCYa2?i#6jNi:U}";
+$Pass = "user_pass";
 $Directory = "C:\techrunnerit";
 
 #--CREATE TEMP DIRECTORY--;
